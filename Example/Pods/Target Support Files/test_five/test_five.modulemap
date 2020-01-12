@@ -1,0 +1,6 @@
+framework module test_five {
+  umbrella header "test_five-umbrella.h"
+
+  export *
+  module * { export * }
+}

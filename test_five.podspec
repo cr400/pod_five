@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'test_five'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of test_five.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/cr400/test_five'
+  s.homepage         = 'https://github.com/cr400/pod_five'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cr400' => 'msicr400@163.com' }
-  s.source           = { :git => 'https://github.com/cr400/test_five.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cr400/pod_five.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -35,6 +35,8 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'test_five' => ['test_five/Assets/*.png']
   # }
+  
+  s.resource = ['test_five/Assets/*.png']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

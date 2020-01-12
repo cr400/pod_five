@@ -7,6 +7,7 @@
 //
 
 #import "YFQViewController.h"
+#import <test_five/HelloView.h>
 
 @interface YFQViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    HelloView *helloView = [[HelloView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:helloView];
+    helloView.layer.borderColor = [UIColor redColor].CGColor;
+    helloView.layer.borderWidth = 2;
 }
 
 - (void)didReceiveMemoryWarning

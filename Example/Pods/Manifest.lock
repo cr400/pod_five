@@ -1,0 +1,16 @@
+PODS:
+  - test_five (0.0.1)
+
+DEPENDENCIES:
+  - test_five (from `../`)
+
+EXTERNAL SOURCES:
+  test_five:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  test_five: 2cdea0ce90bbd289da9c0f8bc549f4155d544daa
+
+PODFILE CHECKSUM: 0b19d35a1b93c5f20c199a1cb5cb42ffe564d6c8
+
+COCOAPODS: 1.8.0
